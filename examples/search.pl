@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 
-use lib '../lib';
+use lib qw(lib ../lib);
 use POE qw(Component::WWW::OhNoRobotCom::Search);
 
 die "Usage: perl search.pl <term_to_search_XKCD_comics_for>\n"
